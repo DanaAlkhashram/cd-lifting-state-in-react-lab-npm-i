@@ -2,9 +2,7 @@
 
 
 const IngredientList = ({ ingredients, addToBurger }) => {
-  console.log("ingredients:", ingredients);
-  console.log("type of ingredients:", typeof ingredients);
-  console.log("is array?", Array.isArray(ingredients));
+  
 
   return (
     <ul>
